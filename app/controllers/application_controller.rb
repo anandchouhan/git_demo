@@ -9,5 +9,7 @@ class ApplicationController < ActionController::Base
 
   private
   def params
+  	current_user
   end
+
 end
